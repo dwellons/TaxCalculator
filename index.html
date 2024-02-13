@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tax Calculator</title>
+    <link rel="stylesheet" href="resources/css/main.css">
+    <script src="js/events.js" charset="utf-8"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Tax Calculator</h1>
+        <h2>Created by Darin Wellons.</h2>
+    </header>
+
+    <div id="input">
+        <h3>Welcome!</h3>
+
+        <p>This tool will allow you to calculate the amount of taxes owed for a given salary.</p>
+
+        <p>Enter the gross salary below, and your results will be displayed in a table below.</p>
+
+        <label for="grossSalary" id="inputTitle">Gross Salary:</label>
+        <input type="text" id="grossSalary"
+            name="grossSalary" id="inputField" required>
+        <input type="submit" value="Calculate Taxes" onclick="fetchSalary(grossSalary);" id="inputButton">
+    </div>
+
+    <!-- The results table will be inserted here. -->
+    <div id="results"></div>
+
+</body>
+</html>

@@ -1,0 +1,116 @@
+html {
+    font-family: Calibri, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("../images/background.jpg");
+    /* Background image source: https://pxhere.com/en/photo/1109940 CC0 Public Domain */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    align-self: flex-start;
+    margin-left: 1em;
+}
+
+h1 {
+    color: #bebdc1;
+    font-style: italic;
+    font-size: 40px;
+    margin-bottom: 0em;
+}
+
+h2 {
+    color: #bebdc1;
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 0em;
+    margin-left: 6.5em;
+}
+
+h3 {
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+#input {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(241, 241, 241, .98);
+    border: #1e0c17;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: .2em;
+    width: 100%;
+    max-width: 40em;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+
+p {
+    font-weight: lighter;
+}
+
+#inputTitle {
+    padding: 1em;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+#inputField {
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+#inputButton {
+    padding: 1em;
+    margin: 2em auto;
+    font-size: 10px;
+}
+
+#results {
+    width: 100%;
+    max-width: 40em;
+    align-self: center;
+    padding: 1em;
+    margin: 2em auto;
+}
+
+#resultsTable {
+    background-color: rgba(241, 241, 241, .98);
+    background-blend-mode: lighten;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 40em;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+
+#resultsTable th, #resultsTable td {
+    border: #1e0c17;
+    border-width: 1px;
+    border-style: solid;
+    text-align: left;
+    margin: 0em;
+    padding: 1em;
+}
+
+#resultsTable tbody {
+    border: #1e0c17;
+    border-width: 1px;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
